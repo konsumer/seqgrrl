@@ -1,0 +1,25 @@
+{
+  "name": "seqgrrl",
+  "version": "0.0.0",
+  "description": "A text-based music-tracker designed to run on a PiGrrl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/seqgrrl.git"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/seqgrrl/issues"
+  },
+  "homepage": "https://github.com/konsumer/seqgrrl#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "gamecontroller": "0.0.2"
+  }
+}

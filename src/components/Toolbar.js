@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Toolbar as theme } from '../theme'
+import * as theme from '../theme'
 
 class Toolbar extends Component {
   render () {
@@ -8,11 +8,12 @@ class Toolbar extends Component {
       <box
         width='100%'
         height={1}
-        top='100%-1'
+        top='100%-6'
+        style={theme.Toolbar}
+        align='center'
         tags
-        style={theme}
       >
-        {`{center}{yellow-fg}START{/yellow-fg}: play/pause | {yellow-fg}A{/yellow-fg}: change | {yellow-fg}B{/yellow-fg}: track | {yellow-fg}SELECT{/yellow-fg}: instrument {/center}`}
+        {`{yellow-fg}START{/yellow-fg}: play/pause | {yellow-fg}A{/yellow-fg}: change | {yellow-fg}B{/yellow-fg}: track | {yellow-fg}SELECT{/yellow-fg}: instrument`}
       </box>
     )
   }

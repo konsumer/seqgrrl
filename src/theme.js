@@ -4,6 +4,10 @@ export const Track = {
   border: {
     fg: 'white',
     bg: 'magenta'
+  },
+  focus: {
+    fg: 'white',
+    bg: 'blue'
   }
 }
 

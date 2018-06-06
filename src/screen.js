@@ -8,14 +8,9 @@ const screen = blessed.screen({
   title: pkg.name
 })
 
-// not working
-// screen.key(['escape', 'q', 'C-c'], () => process.exit(0))
-
-// Don't overwrite the screen
-console.log = function () { }
-console.warn = function () { }
-console.error = function () { }
-console.info = function () { }
-console.debug = function () { }
+screen.key(['escape'], function (ch, key) {
+  console.log(key)
+  return process.exit(0)
+})
 
 export default screen

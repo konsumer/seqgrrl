@@ -5,13 +5,14 @@ import { toHex } from '../utils'
 
 class Track extends Component {
   render () {
-    const {title, track, t} = this.props
+    const {title, track, t, focused} = this.props
     return (
       <box label={title}
-        ref={`track${t}`}
+        focused={focused}
+        onClick={e => console.log('click')}
         left={t * 20}
         width={20}
-        height='100%-1'
+        height='100%-6'
         top={0}
         border={{type: 'line'}}
         style={theme}>

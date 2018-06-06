@@ -2,7 +2,7 @@
 
 This is currently just a placeholder for ideas.
 
-A text-based music-tracker designed to run on a PiGrrl
+A text-based music-tracker designed to run on a [PiGrrl](https://learn.adafruit.com/pigrrl-2)
 
 This is a simple-control-driven interface (just the buttons on a nintendo-style controller) that can run on a low-end machine (runs great on pi.)
 
